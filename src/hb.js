@@ -25,7 +25,7 @@ export default {
         }
         let item = {
           "pid": pid,
-          "id": data.paramSfo.TITLE_ID,
+          "id": id,
           "name": data.paramSfo.TITLE,
           "desc": "",
           "image": "__image",
@@ -38,7 +38,7 @@ export default {
           "Size": size,
           "Author": "HB-Store CDN",
           "apptype": pkgtype,
-          "pv": data.paramSfo.MIN_FW,
+          "pv": "5.05+",
           "main_icon_path": "__image",
           "main_menu_pic": "/user/app/NPXS39041/storedata/" + data.paramSfo.TITLE_ID + ".png",
           "releaseddate": "2019-04-30",
