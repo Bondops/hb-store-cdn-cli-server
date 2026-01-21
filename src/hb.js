@@ -38,7 +38,7 @@ export default {
           "Size": size,
           "Author": "HB-Store CDN",
           "apptype": pkgtype,
-          "pv": "5.05+",
+          "pv": data.paramSfo.MIN_FW,
           "main_icon_path": "__image",
           "main_menu_pic": "/user/app/NPXS39041/storedata/" + data.paramSfo.TITLE_ID + ".png",
           "releaseddate": "2019-04-30",
