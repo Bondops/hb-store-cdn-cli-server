@@ -18,14 +18,14 @@ export default {
           pkgtype = "Base Game"
         } else if (data.paramSfo.CATEGORY == "gp") {
           id = "Update_" + parseFloat(data.paramSfo.APP_VER).toFixed(2) + "_(Fw_" + minfw + ")_" + data.paramSfo.TITLE_ID
-          pkgtype = "Update"
+          pkgtype = "Patch"
         } else if (data.paramSfo.CATEGORY == "ac") {
           id = "DLC_" + data.paramSfo.TITLE_ID
           pkgtype = "DLC"
         }
         let item = {
           "pid": pid,
-          "id": data.paramSfo.NPS_TYPE + " " + data.paramSfo.APP_VER + " (" + data.paramSfo.MIN_FW + ")",
+          "id": data.paramSfo.TITLE_ID,
           "name": data.paramSfo.TITLE,
           "desc": "",
           "image": "__image",
